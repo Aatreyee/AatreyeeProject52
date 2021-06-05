@@ -1,0 +1,43 @@
+body{
+    background-image:url("bg.jpg");
+}
+
+
+
+.oragami{
+    border:2px solid #000000;
+    margin: 20px;
+    align-items: center;
+}
+
+.org {
+    margin:25px;
+    color: red;
+    margin-right: 30px;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+H1{
+    color:rgba(99, 14, 14, 0.808);
+    border: solid;
+}
+
+.item{
+    display: flex;
+    justify-content: space-between;
+}
+p{
+    text-align: center;
+}
+a.link{
+    color:'purple'
+}
+a.visited{
+    color:'#b3b3ff'
+}
+.oragami:hover{
+    transform :scale(1,2);
+}
